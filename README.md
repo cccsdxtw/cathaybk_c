@@ -1,13 +1,24 @@
 # 📈 股票匯率 App
 
-一款以 **即時資訊為核心** 的股票與匯率查詢應用程式，提供使用者快速、直觀的市場概覽。  
+一款以 **即時資訊為核心** 的股票與匯率查詢應用程式，  
+提供使用者快速、直觀的市場概覽。  
 本專案原作為 **面試展示作品**，現已完成最終版本。
 
 ---
 
 ## 🎥 Demo 影片
-👉 [點此觀看 App Demo](#)  
+👉 [點此觀看 App Demo](https://youtu.be/your_video_link)  
 （可替換為實際影片連結，例如 YouTube 或雲端影片）
+
+---
+
+## 📸 App 截圖展示
+
+| 首頁 | 股票清單 | 匯率查詢 |
+|------|-----------|-----------|
+| <img src="assets/readme/screenshot_1.png" width="250"/> | <img src="assets/readme/screenshot_2.png" width="250"/> | <img src="assets/readme/screenshot_3.png" width="250"/> |
+
+> 💡 圖片會自動橫向排列，寬度可自行調整（例如 200～300 之間）。
 
 ---
 
@@ -23,7 +34,7 @@
 可將常用的股票或貨幣加入關注清單，方便快速檢視。
 
 ### 🧩 清晰介面設計  
-採用簡潔直觀的 UI 風格，重點資料一目了然。
+採用 Jetpack Compose 實作，介面簡潔直觀、效能優異。
 
 ---
 
@@ -31,11 +42,11 @@
 
 | 模組 | 技術 |
 |------|------|
-| **前端框架** | Flutter |
-| **狀態管理** | Provider |
+| **前端框架** | Kotlin + Jetpack Compose |
+| **狀態管理** | StateFlow / ViewModel |
 | **API 來源** | Yahoo Finance API、ExchangeRate.host API |
-| **UI 設計** | Material Design 風格 |
-| **開發平台** | Android Studio、VS Code |
+| **UI 設計** | Material 3 Design |
+| **開發平台** | Android Studio |
 
 ---
 
@@ -46,27 +57,33 @@
 git clone https://github.com/yourname/stock-currency-app.git
 cd stock-currency-app
 
-# 2️⃣ 安裝依賴
-flutter pub get
+# 2️⃣ 使用 Gradle 建置
+./gradlew build
 
 # 3️⃣ 執行 App
-flutter run
+./gradlew installDebug
 ```
 
-或於 IDE（Android Studio / VS Code）中直接執行。
+或於 **Android Studio** 中開啟專案，  
+選擇目標模擬器後直接點擊 ▶️「Run」即可。
 
 ---
 
-## 📚 專案結構
+## 📚 專案結構（範例）
 
 ```
-lib/
-├── main.dart
-├── models/        # 資料模型
-├── services/      # API 與網路請求
-├── screens/       # 各功能頁面
-├── widgets/       # 共用元件
-└── utils/         # 工具與常數
+app/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/stockapp/
+│   │   │   ├── ui/           # Compose 畫面
+│   │   │   ├── model/        # 資料模型
+│   │   │   ├── network/      # API 呼叫與資料來源
+│   │   │   ├── viewmodel/    # 狀態管理與邏輯
+│   │   │   └── utils/        # 工具與常數
+│   │   └── res/              # 資源檔案 (icons, strings)
+│   └── AndroidManifest.xml
+└── build.gradle
 ```
 
 ---
