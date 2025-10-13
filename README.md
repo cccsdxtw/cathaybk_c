@@ -12,15 +12,6 @@
 
 ---
 
-## 📸 App 截圖展示
-
-| 首頁 | 股票清單 | 匯率查詢 |
-|------|-----------|-----------|
-| <img src="assets/readme/screenshot_1.png" width="250"/> | <img src="assets/readme/screenshot_2.png" width="250"/> | <img src="assets/readme/screenshot_3.png" width="250"/> |
-
-> 💡 圖片會自動橫向排列，寬度可自行調整（例如 200～300 之間）。
-
----
 
 ## 🧭 功能介紹
 
@@ -67,24 +58,6 @@ cd stock-currency-app
 或於 **Android Studio** 中開啟專案，  
 選擇目標模擬器後直接點擊 ▶️「Run」即可。
 
----
-
-## 📚 專案結構（範例）
-
-```
-app/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/stockapp/
-│   │   │   ├── ui/           # Compose 畫面
-│   │   │   ├── model/        # 資料模型
-│   │   │   ├── network/      # API 呼叫與資料來源
-│   │   │   ├── viewmodel/    # 狀態管理與邏輯
-│   │   │   └── utils/        # 工具與常數
-│   │   └── res/              # 資源檔案 (icons, strings)
-│   └── AndroidManifest.xml
-└── build.gradle
-```
 
 ---
 
