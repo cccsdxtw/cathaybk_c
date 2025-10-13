@@ -49,7 +49,7 @@
 ---
 
 ## 📸 專案展示影片
-🔗 [YouTube - Flight & Currency Tracker Demo](https://youtu.be/Cp8UPhpHG6E)
+🔗 [YouTube - Flight & Currency Tracker Demo](https://youtu.be/Cp8UPhpHG6E?si=-VS8NuTVNIis5_1J）
 
 ---
 
@@ -58,7 +58,7 @@
 1️⃣ **下載專案**
 
 ```bash
-git clone https://github.com/你的帳號/你的專案名稱.git
+git clone https://github.com/cccsdxtw/cathaybk_c.git
 cd 你的專案名稱
 ```
 
