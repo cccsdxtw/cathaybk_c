@@ -49,7 +49,7 @@
 ---
 
 ## 📸 專案展示影片
-🔗 [YouTube - Flight & Currency Tracker Demo](https://youtu.be/Cp8UPhpHG6E?si=-VS8NuTVNIis5_1J）
+🔗 [YouTube - Flight & Currency Tracker Demo](https://youtu.be/Cp8UPhpHG6E?si=-VS8NuTVNIis5_1J)
 
 ---
 
