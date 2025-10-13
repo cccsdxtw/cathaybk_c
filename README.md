@@ -7,7 +7,7 @@
 ---
 
 ## 🎥 Demo 影片
-👉 [點此觀看 App Demo](https://youtu.be/your_video_link)  
+👉 [點此觀看 App Demo](https://youtu.be/2YTVKWVG-NY?si=FttY6MRoKq3fpVG_)  
 （可替換為實際影片連結，例如 YouTube 或雲端影片）
 
 ---
