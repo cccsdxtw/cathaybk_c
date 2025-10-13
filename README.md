@@ -80,23 +80,6 @@ CURRENCY_API_KEY=你的匯率API金鑰
 
 ---
 
-## 🧭 專案結構
-```
-app/
-├── data/
-│   ├── api/
-│   ├── model/
-│   └── repository/
-├── ui/
-│   ├── flight/
-│   ├── currency/
-│   └── common/
-├── viewmodel/
-└── utils/
-```
-
----
-
 ## 🏗️ 未來改進方向
 - 加入航班延誤推播通知
 - 匯率變化趨勢圖表化
